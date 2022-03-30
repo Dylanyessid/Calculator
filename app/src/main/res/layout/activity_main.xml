@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/iBAC"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/ac" />
+
+            <ImageButton
+                android:id="@+id/iBDel"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/del" />
+
+            <ImageButton
+                android:id="@+id/iBPercentage"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/percentage" />
+
+            <ImageButton
+                android:id="@+id/iBDivision"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/division" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/iB7"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/seven" />
+
+            <ImageButton
+                android:id="@+id/iB8"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/eight" />
+
+            <ImageButton
+                android:id="@+id/iB9"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/nine" />
+
+            <ImageButton
+                android:id="@+id/iBMultiply"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/multiply" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/iB4"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/four" />
+
+            <ImageButton
+                android:id="@+id/iB5"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/five" />
+
+            <ImageButton
+                android:id="@+id/iB6"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/six" />
+
+            <ImageButton
+                android:id="@+id/iBDiff"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/diff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/iB1"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/one" />
+
+            <ImageButton
+                android:id="@+id/iB2"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/two" />
+
+            <ImageButton
+                android:id="@+id/iB3"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/three" />
+
+            <ImageButton
+                android:id="@+id/iBPlus"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/plus" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/iBFN"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/fn" />
+
+            <ImageButton
+                android:id="@+id/iB0"
+                android:background="@color/white"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                app:srcCompat="@mipmap/zero" />
+
+            <ImageButton
+                android:id="@+id/iBDot"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/dot" />
+
+            <ImageButton
+                android:id="@+id/iBEquals"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/equals" />
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="352dp"
+        android:layout_height="310dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:gravity="bottom|left"
+        android:inputType="textMultiLine"
+        android:text="@string/initial_value"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
